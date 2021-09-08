@@ -84,7 +84,7 @@ function weather(value) {
          else if (condition === "clear") {
             icon.innerHTML = `<img src='https://img.icons8.com/color/80/000000/sun--v2.png'/>`;
           } else if (condition === "mist") {
-            icon.innerHTML = `<img src="https://img.icons8.com/fluency/80/000000/foggy-night-1.png"/>`;
+            icon.innerHTML = `<img src="https://img.icons8.com/dusk/64/000000/foggy-night-1.png"/>`;
           } else {
             icon.innerHTML = `<img src='https://img.icons8.com/color/80/000000/${condition}--v2.png'/>`;
           }
